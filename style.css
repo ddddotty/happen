@@ -606,7 +606,7 @@ figure {
         width     : 300px;
         height    : 400px;
         right     : 0;
-        top       : 260%;
+        top       : 270%;
         box-shadow: none
     }
 }
@@ -800,7 +800,7 @@ button:hover span {
     #contact_form {
         font-size  : 0.8rem;
         margin-top : 290px;
-        margin-left: -160px;
+        margin-left: -150px;
         width      : 300px;
     }
 }
