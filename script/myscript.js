@@ -6,7 +6,7 @@ $(function () {
     }
 
     if ($(window).width() < 767) {
-        $(".upleft").remove();
+        $(".upleft,.about_bio").remove();
     }
 
     //置頂按鈕
@@ -33,5 +33,6 @@ $(function () {
         $(this).toggleClass('on');
         $('.menu').fadeToggle(200);
     });
+    
 
 });
