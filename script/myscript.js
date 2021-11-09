@@ -33,6 +33,16 @@ $(function () {
         $(this).toggleClass('on');
         $('.menu').fadeToggle(200);
     });
-    
 
+
+    //Gallery套件
+    $(document).ready(function () {
+        $(".video-gallery").magnificPopup({
+            delegate: "a",
+            type: "iframe",
+            gallery: {
+                enabled: true
+            }
+        });
+    });
 });
