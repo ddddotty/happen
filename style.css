@@ -974,6 +974,11 @@ nav a {
     color         : rgb(145, 145, 145);
 }
 
+mark {
+    background-color: rgba(255, 238, 0, 0.5);
+    color: gray;
+  }
+
 /* 手機 */
 @media (max-width: 767px) {
     .about_h1 {
