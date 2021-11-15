@@ -59,7 +59,7 @@ header .logo {
     color           : gray;
     writing-mode    : vertical-lr;
     text-orientation: upright;
-    z-index         : 9;
+    z-index         : 10;
     mix-blend-mode  : screen;
 }
 
@@ -243,7 +243,7 @@ div div {
 .spanone {
     display   : block;
     width     : 1px;
-    height    : 125px;
+    height    : 145px;
     background: rgb(150, 150, 150);
     position  : absolute;
     left      : 30px;
@@ -258,7 +258,7 @@ div div {
 .spantwo {
     display   : block;
     width     : 1px;
-    height    : 190px;
+    height    : 210px;
     background: rgb(150, 150, 150);
     position  : absolute;
     left      : 41px;
@@ -273,7 +273,7 @@ div div {
 .spanthree {
     display   : block;
     width     : 1px;
-    height    : 140px;
+    height    : 150px;
     background: rgb(150, 150, 150);
     position  : absolute;
     left      : 30px;
@@ -812,9 +812,9 @@ button:hover span {
     }
 
     #contact_form {
-        margin-top : 400px;
+        margin-top : 380px;
         margin-left: -250px;
-        width      : 1050%;
+        width      : 500px;
     }
 }
 
@@ -834,6 +834,7 @@ button:hover span {
 
 /* ------ Go top區 ------ */
 #gotop {
+    display: none;
     position        : fixed;
     width           : 40px;
     height          : 40px;
