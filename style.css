@@ -60,7 +60,7 @@ header .logo {
     writing-mode    : vertical-lr;
     text-orientation: upright;
     z-index         : 9999;
-    mix-blend-mode  : screen;
+    mix-blend-mode  : multiply;
 }
 
 .upleft span {
@@ -209,10 +209,6 @@ main .banner {
         height     : 50vh;
         margin-top : 8%;
         margin-left: -50px;
-    }
-    .upleft{
-        position: fixed;
-        z-index: 9999;
     }
 }
 
