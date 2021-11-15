@@ -211,6 +211,7 @@ main .banner {
         margin-left: -50px;
     }
     .upleft{
+        position: fixed;
         z-index: 9999;
     }
 }
